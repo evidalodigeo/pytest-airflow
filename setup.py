@@ -9,7 +9,7 @@ from setuptools import setup, find_packages
 import versioneer
 
 setup(
-    name="pytest-airflow",
+    name="pytest-airflow-composer",
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     author="Guilherme Zagatti",
@@ -19,7 +19,7 @@ setup(
     long_description=open("README.rst").read(),
     packages=find_packages(exclude=["test"]),
     python_requires=">=3.5",
-    install_requires=["pytest>=4.4.0", "apache-airflow>=1.8.0"],
+    install_requires=["pytest>=4.4.0", "apache-airflow>=1.10.3-composer"],
     entry_points={"pytest11": ["pytest-airflow=pytest_airflow.plugin"]},
     classifiers=[
         "Framework :: Pytest",

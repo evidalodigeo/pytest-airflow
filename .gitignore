@@ -28,3 +28,16 @@ airflow/*
 
 # editor
 .vscode/
+# idea editor
+/.idea/$CACHE_FILE$
+/.idea/checkstyle-idea.xml
+/.idea/codeStyles/codeStyleConfig.xml
+/.idea/compiler.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/copyright/profiles_settings.xml
+/.idea/codeStyles/Project.xml
+/pytest-airflow.iml
+/.idea/sbt.xml
+/.idea/vcs.xml
+/.idea/workspace.xml
